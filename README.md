@@ -42,12 +42,8 @@ Developer
 
 Amendments to ***this*** repository will be made by 
 
---add your info below instead of mine--
-
-* [@SusanPotter](http://twitter.com/SusanPotter) also known as 
-* [mbbx6spp on GitHub](http://github.com/mbbx6spp).
-
---add your info above instead of mine--
+* [@autowired](http://twitter.com/autowired) also known as 
+* [dmt on GitHub](http://github.com/dmt).
 
 Newcomers should fork 
 [7languages7weeks repository](http://github.com/mbbx6spp/7languages7weeks)
