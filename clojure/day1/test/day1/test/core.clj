@@ -2,5 +2,8 @@
   (:use [day1.core])
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
-  (is true "No tests have been written."))
+(deftest big-if-string-is-longer-than-n
+  (is (= false (big "" 1)))
+  (is (= false (big "xx" 2)))
+  (is (= true (big "xx" 1))))
+
