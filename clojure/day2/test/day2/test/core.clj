@@ -2,5 +2,8 @@
   (:use [day2.core])
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(deftest fib-sequence
+  (is (= 1 (fib 1)))
+  (is (= 1 (fib 2)))
+  (is (= 2 (fib 3)))
+  (is (= 13 (fib 7))))
