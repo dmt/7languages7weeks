@@ -8,6 +8,11 @@
   (is (= 3 (turn 1 2)))
   (is (= 0 (turn 1 3))))
 
+(def northCompass (SimpleCompass. 0))
+
 (deftest simple-compass
   (testing "creation"
-    (is (= :north (direction (SimpleCompass. 0))))))
+    (is (= :south (direction (SimpleCompass. 2)))))
+  (testing "changing direction"
+    (is (= :east (direction (right northCompass))))
+    (is (= :west (direction (left northCompass))))))
