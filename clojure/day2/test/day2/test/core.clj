@@ -9,5 +9,6 @@
   (is (= 13 (fib 7))))
 
 (deftest unless-macro
-  (is (= :foo (unless false :foo)) "execute body if test fails")
-  (is (nil? (unless true :foo)) "do nothing is test is true"))
+  (is (= :foo (unless false :foo :bar)) "execute body if test fails")
+  (is (nil? (unless true :foo)) "do nothing is test is true")
+  (is (= :bar (unless true :foo :bar)) "execute else body if test is true"))
